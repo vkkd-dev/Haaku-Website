@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <title>
+        PatientCare - Case Study | Haaku
+    </title>
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+    <!-- Nucleo Icons -->
+    <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <!-- CSS Files -->
+    <link id="pagestyle" href="../assets/css/soft-design-system.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="container position-sticky z-index-sticky top-0">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg blur blur-rounded top-0 z-index-fixed shadow position-absolute my-4 py-0 start-0 end-0 mx-2" id="navhide">
+                    <div class="container-fluid px-0">
+                        <a class="navbar-brand font-weight-bolder ms-sm-3" href="../index.html" rel="tooltip" title="Haaku" data-placement="bottom">
+                            <img class="logo" src="../assets/img/logos/logo-blue.png" alt="Haaku website logo">
+                        </a>
+                        <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon mt-2">
+                              <span class="navbar-toggler-bar bar1"></span>
+                              <span class="navbar-toggler-bar bar2"></span>
+                              <span class="navbar-toggler-bar bar3"></span>
+                            </span>
+                          </button>
+                        <div class="collapse navbar-collapse pb-2 py-lg-0 w-100" id="navigation">
+                            <ul class="navbar-nav navbar-nav-hover ms-lg-12 ps-lg-6 w-100" id="navbar">
+                                <li class="nav-item dropdown dropdown-hover">
+                                    <a class="nav-link fs-6 d-flex justify-content-between cursor-pointer align-items-center myriadpro" href="javascript:;" id="dropdownMenuBlocks" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Who We Serve
+                                      <img src="../assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-1"/>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-animation dropdown-lg dropdown-lg-responsive p-3 border-radius-lg mt-3 mt-lg-3" aria-labelledby="dropdownMenuBlocks">
+                                        <div class="d-none d-lg-block">
+                                            <li class="nav-item dropdown dropdown-hover dropdown-subitem">
+                                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="../pages/health-care.html">
+                                                    <div class="d-flex">
+                                                        <div class="icon h-10 me-3 d-flex mt-1">
+                                                            <i class="ni ni-single-copy-04 text-gradient text-primary"></i>
+                                                        </div>
+                                                        <div class="w-100 d-flex align-items-center justify-content-between">
+                                                            <div>
+                                                                <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">HealthCare</h6>
+                                                            </div>
+                                                            <img src="../assets/img/down-arrow.svg" alt="down-arrow" class="arrow">
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item dropdown dropdown-hover dropdown-subitem">
+                                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="../pages/education.html">
+                                                    <div class="d-flex">
+                                                        <div class="icon h-10 me-3 d-flex mt-1">
+                                                            <i class="ni ni-laptop text-gradient text-primary"></i>
+                                                        </div>
+                                                        <div class="w-100 d-flex align-items-center justify-content-between">
+                                                            <div>
+                                                                <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Education </h6>
+                                                            </div>
+                                                            <img src="../assets/img/down-arrow.svg" alt="down-arrow" class="arrow">
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item dropdown dropdown-hover dropdown-subitem">
+                                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="../pages/retail.html">
+                                                    <div class="d-flex">
+                                                        <div class="icon h-10 me-3 d-flex mt-1">
+                                                            <i class="ni ni-badge text-gradient text-primary"></i>
+                                                        </div>
+                                                        <div class="w-100 d-flex align-items-center justify-content-between">
+                                                            <div>
+                                                                <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Retail </h6>
+                                                            </div>
+                                                            <img src="../assets/img/down-arrow.svg" alt="down-arrow" class="arrow">
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item dropdown dropdown-hover dropdown-subitem">
+                                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="../pages/fashion.html">
+                                                    <div class="d-flex">
+                                                        <div class="icon h-10 me-3 d-flex mt-1">
+                                                            <i class="ni ni-notification-70 text-gradient text-primary"></i>
+                                                        </div>
+                                                        <div class="w-100 d-flex align-items-center justify-content-between">
+                                                            <div>
+                                                                <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Fashion </h6>
+                                                            </div>
+                                                            <img src="../assets/img/down-arrow.svg" alt="down-arrow" class="arrow">
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item dropdown dropdown-hover dropdown-subitem">
+                                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="../pages/media.html">
+                                                    <div class="d-flex">
+                                                        <div class="icon h-10 me-3 d-flex mt-1">
+                                                            <i class="ni ni-app text-gradient text-primary"></i>
+                                                        </div>
+                                                        <div class="w-100 d-flex align-items-center justify-content-between">
+                                                            <div>
+                                                                <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Media </h6>
+                                                            </div>
+                                                            <img src="../assets/img/down-arrow.svg" alt="down-arrow" class="arrow">
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </div>
+                                        <div class="row d-lg-none">
+                                            <div class="col-md-12">
+                                                <div class="d-flex mb-2">
+                                                    <div class="icon h-10 me-3 d-flex mt-1">
+                                                        <i class="ni ni-single-copy-04 text-gradient text-primary"></i>
+                                                    </div>
+                                                    <div class="w-100 d-flex align-items-center justify-content-between">
+                                                        <a href="../pages/health-care.html">
+                                                            <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">HeathCare </h6>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex mb-2 mt-3">
+                                                    <div class="icon h-10 me-3 d-flex mt-1">
+                                                        <i class="ni ni-laptop text-gradient text-primary"></i>
+                                                    </div>
+                                                    <div class="w-100 d-flex align-items-center justify-content-between">
+                                                        <a href="../pages/education.html">
+                                                            <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Education </h6>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex mb-2 mt-3">
+                                                    <div class="icon h-10 me-3 d-flex mt-1">
+                                                        <i class="ni ni-badge text-gradient text-primary"></i>
+                                                    </div>
+                                                    <div class="w-100 d-flex align-items-center justify-content-between">
+                                                        <a href="../pages/retail.html">
+                                                            <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Retail </h6>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex mb-2 mt-3">
+                                                    <div class="icon h-10 me-3 d-flex mt-1">
+                                                        <i class="ni ni-notification-70 text-gradient text-primary"></i>
+                                                    </div>
+                                                    <div class="w-100 d-flex align-items-center justify-content-between">
+                                                        <a href="../pages/fashion.html">
+                                                            <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Fashion </h6>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex mb-2 mt-3">
+                                                    <div class="icon h-10 me-3 d-flex mt-1">
+                                                        <i class="ni ni-app text-gradient text-primary"></i>
+                                                    </div>
+                                                    <div class="w-100 d-flex align-items-center justify-content-between">
+                                                        <a href="../pages/media.html">
+                                                            <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Media </h6>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item dropdown dropdown-hover mx-2">
+                                    <a href="../pages/solution.html" class="nav-link ps-2 fs-6 d-flex justify-content-between cursor-pointer align-items-center myriadpro" id="dropdownMenuPages">
+                                        Solution
+                                    </a>
+                                </li>
+
+                                <li class="nav-item dropdown dropdown-hover mx-2">
+                                    <a href="../pages/capabilities.html" class="nav-link ps-2 fs-6 d-flex justify-content-between cursor-pointer align-items-center myriadpro" id="dropdownMenuPages">
+                                        Capabilities
+                                    </a>
+                                </li>
+
+                                <li class="nav-item dropdown dropdown-hover mx-2">
+                                    <a href="../pages/case-studies.html" class="nav-link ps-2 fs-6 d-flex justify-content-between cursor-pointer align-items-center myriadpro" id="dropdownMenuPages">
+                                        Case Studies
+                                    </a>
+                                </li>
+
+                                <li class="nav-item my-auto ms-3 ms-lg-0">
+                                    <a href="../pages/blogs.html" class="btn btn1 btn-sm btn-outline-primary btn-round mb-0 me-1 mt-2 mt-md-0 myriadpro">Blogs</a>
+                                </li>
+
+                                <li class="nav-item my-auto ms-3 ms-lg-0">
+                                    <a href="../pages/about-us.html" class="btn btn1 btn-sm  btn-outline-primary btn-round mb-0 me-1 mt-2 mt-md-0 myriadpro">About Us</a>
+                                </li>
+
+                                <li class="nav-item my-auto ms-3 ms-lg-0">
+                                    <a href="../pages/contact-us.html" class="btn btn1 btn-sm  bg-gradient-primary btn-round mb-0 me-1 mt-2 mt-md-0 myriadpro">Contact Us</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------- START HEADER 1 w/ text and image on right ------- -->
+    <header>
+        <div class="page-header casestudy-bg min-vh-100">
+            <div class="oblique-casestudy position-absolute top-0 h-100 d-md-block d-none">
+                <div class="oblique-image bg-cover position-absolute fixed-top ms-auto h-100 z-index-0 ms-n1" style="background-image:url(../assets/img/products/patientcare1.jpg)"></div>
+            </div>
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-6 col-md-7 mb-12 d-flex justify-content-center flex-column ">
+                        <h1 class="text-gradient text-primary mackayregular ">Patient </h1>
+                        <h1 class="mb-4 mackayregular ">Care 24x7</h1>
+                        <!-- <p class="lead pe-5 me-5 myriadpro ">24*7</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Problem -->
+    <section class="py-1 mb-5 mt-5 cs-pc" data-aos="fade-up ">
+        <div class="container ">
+            <h4 class="angana-before mb-lg-4 mb-3 text-uppercase myriadpro letter-wider ">Client</h4>
+            <div class="col-lg-12 " data-aos="fade-up ">
+                <h1 class="bergen-bold ms-n4 ">The Client</h1>
+                <h4 class="lead bergen-regular">
+                    Patient Care 24x7 is a top HealthTech company that provides round-the-clock patient care services. They specialize in doctor and ambulance booking, making it easy for patients to access the medical attention they need quickly and efficiently. With their
+                    user-friendly platform and dedicated team of healthcare professionals, Patient Care 24x7 is committed to ensuring the best possible care for every patient. Choose Patient Care 24x7 for your healthcare needs and experience top-notch
+                    service that you can rely on.
+                </h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-2 mb-5 cs-pc">
+        <div class="container ">
+            <h4 class="angana-after mb-lg-4 mb-3 text-uppercase myriadpro letter-wider ">Problem </h4>
+            <div class="col-lg-12 " data-aos="fade-up ">
+                <h1 class="bergen-bold ms-n4 ">The Problem</h1>
+                <h4 class="lead bergen-regular">
+                    Patient Care 24x7 addresses the problem of timely access to medical care by offering a convenient and reliable platform for doctor and ambulance booking. They understand that quick medical attention is crucial in many situations, and their services help
+                    to ensure that patients receive the care they need when they need it. But without a website or app, it was difficult for patients to access the services they needed or for potential customers to learn more about the company and its
+                    offerings.
+                </h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer py-5 bg-gradient-dark position-relative overflow-hidden cs-pc">
+        <img src="../assets/img/shapes/waves-white.svg " alt="pattern-lines " class="position-absolute start-0 top-0 w-100 opacity-6 ">
+        <h4 class="solution-line text-white-90 mb-lg-4 mb-3 text-uppercase myriadpro letter-wider ">Solution</h4>
+        <h1 class="casestudy text-white-20 mackayregular ">Solution</h1>
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-12 me-auto mb-lg-0 mb-4 text-lg-start " data-aos="fade-up ">
+                    <h1 class="text-white bergen-bold ms-n4">Our Solution</h1>
+                    <p class="lead text-white bergen-regular ">
+                        PatientCare24*7 decided to work with our developers to create a website and app that would serve as a central hub for information about the company and its services. The app would also allow patients to access care and communicate with healthcare professionals
+                        anytime, anywhere. In addition, the app includes a feature that allows patients to easily book an air ambulance in case of an emergency or for scheduled transport to and from medical appointments.
+                        <br><br> Working with our team of developers and designers, PatientCare24*7 defined the key features and functionlities they wanted to include in the app, such as secure messaging with healthcare professionals, the ability to schedule
+                        appointments, and access to medical records. They also partnered with local ambulance providers to ensure that patients have access to reliable and timely transportation. <br><br> The website and app were designed with a focus
+                        on creating a seamless and user-friendly experience for patients. Team Haaku implemented security measures to ensure patient data is protected, and conducted user testing to ensure that the products were easy to use and met the
+                        needs of their target audience.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Screenshots -->
+    <section class="py-4 ">
+        <div class="container ">
+            <h4 class="angana-after1 mb-lg-4 mt-7 text-uppercase myriadpro letter-wider ">App Home Screen Optimization</h4>
+            <div class="row mt-6 ">
+                <div class="col-lg-12 ">
+                    <div class="row ">
+                        <div class="col-lg-6 justify-content-center d-flex flex-column ">
+                            <img src="../assets/img/products/p1.png " alt="img-blur-shadow-blog-2 " class="img-fluid w-100 ">
+                        </div>
+                        <div class="col-lg-6 justify-content-center d-flex flex-column ps-lg-5 pt-lg-0 pt-3 ">
+                            <h6 class="category text-info mt-3 ">#1</h6>
+                            <h3 class="text-darker ">
+                                Home Screen
+                            </h3>
+                            <p>
+                                Highlight of the home screen.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 mt-5 ">
+                    <div class="row flex-row-reverse ">
+                        <div class="col-lg-6 justify-content-center d-flex flex-column ">
+                            <img src="../assets/img/products/p2.png " alt="img-blur-shadow-blog-2 " class="img-fluid w-100 ">
+                        </div>
+                        <div class="col-lg-6 justify-content-center d-flex flex-column ps-lg-5 pt-lg-0 pt-3 ">
+                            <h6 class="category text-info mt-3 ">#2</h6>
+                            <h3 class="text-darker ">
+                                Category Doctors
+                            </h3>
+                            <p>
+                                Highlight of different categories of doctors.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 mt-5 ">
+                    <div class="row ">
+                        <div class="col-lg-6 justify-content-center d-flex flex-column ">
+                            <img src="../assets/img/products/p3.png " alt="img-blur-shadow-blog-2 " class="img-fluid w-100 ">
+                        </div>
+                        <div class="col-lg-6 justify-content-center d-flex flex-column ps-lg-5 pt-lg-0 pt-3 ">
+                            <h6 class="category text-info mt-3 ">#3</h6>
+                            <h3 class="text-darker ">
+                                Consult Services
+                            </h3>
+                            <p>
+                                Highlight of consulting services.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 mt-5 ">
+                    <div class="row flex-row-reverse ">
+                        <div class="col-lg-6 justify-content-center d-flex flex-column ">
+                            <img src="../assets/img/products/p4.png " alt="img-blur-shadow-blog-2 " class="img-fluid w-100 ">
+                        </div>
+                        <div class="col-lg-6 justify-content-center d-flex flex-column ps-lg-5 pt-lg-0 pt-3 ">
+                            <h6 class="category text-info mt-3 ">#4</h6>
+                            <h3 class="text-darker ">
+                                Emergency Healthcare Services
+                            </h3>
+                            <p>
+                                Highlight of emergency healthcare services.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 mt-5 ">
+                    <div class="row ">
+                        <div class="col-lg-6 justify-content-center d-flex flex-column ">
+                            <img src="../assets/img/products/p5.png " alt="img-blur-shadow-blog-2 " class="img-fluid w-100 ">
+                        </div>
+                        <div class="col-lg-6 justify-content-center d-flex flex-column ps-lg-5 pt-lg-0 pt-3 ">
+                            <h6 class="category text-info mt-3 ">#5</h6>
+                            <h3 class="text-darker ">
+                                Available Services
+                            </h3>
+                            <p>
+                                Highlight all the available services.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 mt-5 ">
+                    <div class="row flex-row-reverse ">
+                        <div class="col-lg-6 justify-content-center d-flex flex-column ">
+                            <img src="../assets/img/products/p6.png " alt="img-blur-shadow-blog-2 " class="img-fluid w-100 ">
+                        </div>
+                        <div class="col-lg-6 justify-content-center d-flex flex-column ps-lg-5 pt-lg-0 pt-3 ">
+                            <h6 class="category text-info mt-3 ">#6</h6>
+                            <h3 class="text-darker ">
+                                Navigation Bar
+                            </h3>
+                            <p>
+                                Highlight of the side navigation bar.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Web Screenshots -->
+    <section class="py-4 pc-space">
+        <div class="container ">
+            <h4 class="angana-after1 mb-lg-4 mt-7 text-uppercase myriadpro letter-wider ">Website Homepage Conversion Optimization</h4>
+            <div class="row mt-6 ">
+                <div class="col-lg-12 ">
+                    <div class="row ">
+                        <div class="col-lg-6 justify-content-center d-flex flex-column ">
+                            <div class="card rounded-3 ">
+                                <div class="d-block blur-shadow-image ">
+                                    <img src="../assets/img/products/patientcare.jpg " alt="img-blur-shadow-blog-2 " class="img-fluid shadow rounded-3 ">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 justify-content-center d-flex flex-column ps-lg-5 pt-lg-0 pt-3 ">
+                            <h6 class="category text-info mt-3 ">#1</h6>
+                            <h3 class="text-darker ">
+                                Hero Section
+                            </h3>
+                            <p>
+                                Highlight the best seller product and clear CTA.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 mt-5 ">
+                    <div class="row flex-row-reverse ">
+                        <div class="col-lg-6 justify-content-center d-flex flex-column ">
+                            <div class="card rounded-3 ">
+                                <div class="blur-shadow-image ">
+                                    <img src="../assets/img/products/patientcare2.png " alt="img-blur-shadow-blog-2 " class="img-fluid shadow rounded-3 ">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 justify-content-center d-flex flex-column ps-lg-5 pt-lg-0 pt-3 ">
+                            <h6 class="category text-info mt-3 ">#2</h6>
+                            <h3 class="text-darker ">
+                                Mission & Vision
+                            </h3>
+                            <p>
+                                Highlight of mission and vision.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 mt-5 ">
+                    <div class="row ">
+                        <div class="col-lg-6 justify-content-center d-flex flex-column ">
+                            <div class="card rounded-3 ">
+                                <div class="d-block blur-shadow-image ">
+                                    <img src="../assets/img/products/patientcare3.png " alt="img-blur-shadow-blog-2 " class="img-fluid shadow rounded-3 ">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 justify-content-center d-flex flex-column ps-lg-5 pt-lg-0 pt-3 ">
+                            <h6 class="category text-info mt-3 ">#3</h6>
+                            <h3 class="text-darker ">
+                                Our Products
+                            </h3>
+                            <p>
+                                Highlight of our services.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 mt-5 ">
+                    <div class="row flex-row-reverse ">
+                        <div class="col-lg-6 justify-content-center d-flex flex-column ">
+                            <div class="card rounded-3 ">
+                                <div class="blur-shadow-image ">
+                                    <img src="../assets/img/products/patientcare4.png " alt="img-blur-shadow-blog-2 " class="img-fluid shadow rounded-3 ">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 justify-content-center d-flex flex-column ps-lg-5 pt-lg-0 pt-3 ">
+                            <h6 class="category text-info mt-3 ">#4</h6>
+                            <h3 class="text-darker ">
+                                Emergency Healthcare Services
+                            </h3>
+                            <p>
+                                Highlight of emergency healthcare services.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 mt-5 ">
+                    <div class="row ">
+                        <div class="col-lg-6 justify-content-center d-flex flex-column ">
+                            <div class="card rounded-3 ">
+                                <div class="d-block blur-shadow-image ">
+                                    <img src="../assets/img/products/patientcare5.png " alt="img-blur-shadow-blog-2 " class="img-fluid shadow rounded-3 ">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 justify-content-center d-flex flex-column ps-lg-5 pt-lg-0 pt-3 ">
+                            <h6 class="category text-info mt-3 ">#5</h6>
+                            <h3 class="text-darker ">
+                                What Client Say
+                            </h3>
+                            <p>
+                                Highlight best sell products.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 mt-5 ">
+                    <div class="row flex-row-reverse ">
+                        <div class="col-lg-6 justify-content-center d-flex flex-column ">
+                            <div class="card rounded-3 ">
+                                <div class="blur-shadow-image ">
+                                    <img src="../assets/img/products/patientcare6.png " alt="img-blur-shadow-blog-2 " class="img-fluid shadow rounded-3 ">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 justify-content-center d-flex flex-column ps-lg-5 pt-lg-0 pt-3 ">
+                            <h6 class="category text-info mt-3 ">#6</h6>
+                            <h3 class="text-darker ">
+                                Footer
+                            </h3>
+                            <p>
+                                Highlight navigation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile Optimization -->
+    <section class="py-5 ">
+        <div class="container ">
+            <h4 class="angana-after2 mb-lg-3 mt-0 text-uppercase myriadpro letter-wider ">Mobile Optimization </h4>
+            <div class="row mt-md-5 mt-4 ">
+                <div class="col-lg-3 col-sm-6 mb-lg-0 mb-4 ">
+                    <div class="card card-profile card-plain ">
+                        <div class="card-body text-center bg-white shadow-lg border-radius-lg p-1 ">
+                            <img class="w-100 border-radius-md " src="../assets/img/products/pc-m1.png ">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-lg-0 mb-4 ">
+                    <div class="card card-profile card-plain ">
+                        <div class="card-body text-center bg-white shadow-lg border-radius-lg p-1 ">
+                            <img class="w-100 border-radius-md " src="../assets/img/products/pc-m2.png ">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 mb-lg-0 mb-4 ">
+                    <div class="card card-profile card-plain ">
+                        <div class="card-body text-center bg-white shadow-lg border-radius-lg p-1 ">
+                            <img class="w-100 border-radius-md " src="../assets/img/products/pc-m3.png ">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 mb-lg-0 mb-4 ">
+                    <div class="card card-profile card-plain ">
+                        <div class="card-body text-center bg-white shadow-lg border-radius-lg p-1 ">
+                            <img class="w-100 border-radius-md " src="../assets/img/products/pc-m4.png " alt="card image ">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile Optimization -->
+    <!-- <section class="py-4 ">
+        <div class="container ">
+            <h4 class="angana-after2 mb-lg-3 mt-0 text-uppercase myriadpro letter-wider ">Mobile Optimization </h4>
+            <section class="py-5 ">
+                <div class="container ">
+                    <div class="row ">
+                        <div class="col-lg-3 col-md-6 mt-4 ">
+                            <a href="javascript:; ">
+                                <div class="card card-background tilt min-vh-80 " data-tilt>
+                                    <div class="full-background " style="background-image: url(../assets/img/products/patientcare-m.png) "></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mt-4 ">
+                            <a href="javascript:; ">
+                                <div class="card card-background tilt min-vh-80 " data-tilt>
+                                    <div class="full-background " style="background-image: url(../assets/img/products/patientcare-m1.png) "></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mt-4 ">
+                            <a href="javascript:; ">
+                                <div class="card card-background tilt min-vh-80 " data-tilt>
+                                    <div class="full-background " style="background-image: url(../assets/img/products/patientcare-m2.png) "></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mt-4 ">
+                            <a href="javascript:; ">
+                                <div class="card card-background tilt min-vh-80 " data-tilt>
+                                    <div class="full-background " style="background-image: url(../assets/img/products/patientcare-m3.png) "></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section> -->
+
+    <!-- Result -->
+    <section class="footer py-5 mt-7 bg-gradient-dark position-relative overflow-hidden ">
+        <img src="../assets/img/shapes/waves-white.svg " alt="pattern-lines " class="position-absolute start-0 top-0 w-100 opacity-6 ">
+        <h4 class="solution-line text-white-90 mb-lg-4 mb-3 text-uppercase myriadpro letter-wider ">Result</h4>
+        <h1 class="casestudy text-white-20 mackayregular ">Outcome</h1>
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-12 me-auto mb-lg-0 mb-4 text-lg-start " data-aos="fade-up ">
+                    <h1 class="text-white bergen-bold ms-n4">The Outcome</h1>
+                    <!-- <h2 class="mb-3 text-white bergen-bold ">Unbind your optimal level</h2> -->
+                    <p class="lead text-white bergen-regular ">
+                        The creation of a website and app for PatientCare24*7 represents a significant step forward for the company in terms of expanding its reach and improving patient care. With these digital tools in place, patients can access care and communicate with healthcare
+                        professionals at any time, from anywhere, making it easier for them to manage their health and well-being. The inclusion of ambulance booking services also provides a one-stop-shop for patients seeking round-the-clock care and
+                        transportation, making it easier for them to manage their healthcare needs. They have recently been selected as one of the finalist for Eureka! 2022 (IIT Bombay). <br><br> In conclusion, PatientCare24*7's
+                        website and app have helped the company reach more patients, provide better care, and streamline the process of booking ambulance services. These digital tools have positioned the company as a leader in the healthcare space, leveraging
+                        Ambulance Dispatch Software, Healthcare App Development, and Remote Patient Monitoring technologies to improve patient outcomes and revolutionize the healthcare industry.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <div class="page-header my-7" id="my-div-id">
+        <div class="position-absolute fixed-top ms-auto w-50 h-100 rounded-3 z-index-0 d-none d-sm-none d-md-block me-n4" style="background-image: url(../assets/img/bookacall.jpg); background-size: cover; background-position: center;">
+        </div>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-7 d-flex justify-content-center flex-column">
+                    <div class="card card-body d-flex justify-content-center shadow-lg p-5 blur align-items-center">
+                        <h3 class="text-center" id="contact-h">Contact us</h3>
+                        <img id="image" src="" style="width: 100px; display: flex; justify-content: center; margin: 0 auto 20px;" />
+                        <form role="form" id="contact-form" onsubmit="event.preventDefault();" autocomplete="off">
+                            <div class="card-body" id="contact">
+                                <div class="row">
+                                    <div class="col-md-6 pe-2">
+                                        <label>Full name</label>
+                                        <div class="input-group input-group-sm mb-4">
+                                            <span class="input-group-text"><i class="fas fa-user py-2 text-secondary"></i></span>
+                                            <input id="name" class="form-control" placeholder="Full Name" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 ps-2">
+                                        <div class="form-group">
+                                            <label>Phone no</label>
+                                            <div class="input-group input-group-sm mb-4">
+                                                <span class="input-group-text"><i class="fas fa-phone py-2 text-secondary"></i></span>
+                                                <input id="phone" class="form-control" placeholder="Phone" type="tel">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Email address</label>
+                                    <div class="input-group input-group-sm mb-4">
+                                        <span class="input-group-text"><i class="ni ni-email-83 py-2 text-secondary"></i></span>
+                                        <input id="email" class="form-control" placeholder="Email" type="email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Your message</label>
+                                    <textarea name="message" class="form-control form-control-sm" placeholder="Type here" id="message" rows="6"></textarea>
+                                </div>
+
+                                <div class="col">
+                                    <div class="col-md-12">
+                                        <button type="submit" onclick="sendmail()" class="btn bg-gradient-dark w-100">Send Message</button>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <a href="https://calendly.com/rajdeepam-6nw/30min" target="_blank" class="btn bg-gradient-dark w-100">Book a call</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <hr class="horizontal dark my-5">
+        <div class="container">
+            <div class=" row">
+                <div class="col-md-3 mb-4 ms-auto">
+                    <div>
+                        <h6 class="text-gradient text-primary font-weight-bolder">Haaku </h6>
+                    </div>
+                    <div>
+                        <h6 class="mt-0 mt-n1 mb-3 opacity-8"> Social</h6>
+                        <ul class="d-flex flex-row ms-n3 mt-3 nav">
+                            <li class="nav-item">
+                                <a class="nav-link pe-1" href="https://www.linkedin.com/company/haaku-pvt-ltd/mycompany/" target="_blank">
+                                    <i class="fab fa-linkedin text-lg opacity-8"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pe-1" href="https://www.instagram.com/haaku.in/?next=%2F" target="_blank">
+                                    <i class="fab fa-instagram text-lg opacity-8"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pe-1" href="https://www.facebook.com/haaku.tech" target="_blank">
+                                    <i class="fab fa-facebook text-lg opacity-8"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pe-1" href="https://twitter.com/haaku_10" target="_blank">
+                                    <i class="fab fa-twitter text-lg opacity-8"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 col-6 mb-4">
+                    <div>
+                        <h6 class="text-gradient text-primary text-sm">Who We Serve</h6>
+                        <ul class="flex-column ms-n3 nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/health-care.html">
+                                    HealthCare
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/education.html">
+                                    Education
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/retail.html">
+                                    Retail
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/fashion.html">
+                                    Fashion
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/media.html">
+                                    Media
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 col-6 mb-4">
+                    <div>
+                        <h6 class="text-gradient text-primary text-sm">Navigate</h6>
+                        <ul class="flex-column ms-n3 nav">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/solution.html">
+                                    Solution
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/capabilities.html">
+                                    Capabilities
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/case-studies.html">
+                                    Case Studies
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/about-us.html">
+                                    About Us
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/blogs.html">
+                                    Blogs
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 col-6 mb-4">
+                    <div>
+                        <h6 class="text-gradient text-primary text-sm">Help & Support</h6>
+                        <ul class="flex-column ms-n3 nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/contact-us.html">
+                                    Contact Us
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="mailto:support@haaku.in">info@haaku.in</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="tel:+91 84858 73508">+91 84858 73508</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 col-6 mb-4 me-auto">
+                    <div>
+                        <h6 class="text-gradient text-primary text-sm">Legal</h6>
+                        <ul class="flex-column ms-n3 nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/termsnconditions.html">
+                                    Terms &amp; Conditions
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/privacy-policy.html">
+                                    Privacy Policy
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="text-center">
+                        <p class="my-4 text-sm">
+                            All rights reserved. Copyright ©
+                            <script>
+                                document.write(new Date().getFullYear())
+                            </script> by <a href="../index.html" target="_blank">HAAKU</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/core/popper.min.js " type="text/javascript "></script>
+    <script src="../assets/js/core/bootstrap.min.js " type="text/javascript "></script>
+    <script src="../assets/js/plugins/perfect-scrollbar.min.js "></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navhide ").style.display = "block ";
+            } else {
+                document.getElementById("navhide ").style.display = "none ";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
+    <script>
+        function sendmail() {
+            var x = document.getElementById("contact");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+                document.getElementById("contact-h").innerHTML = "Thank you! Your response has been submitted.";
+            }
+            let image = document.getElementById("image");
+            image.src = "../assets/img/icons/success.gif";
+            (function() {
+                emailjs.init("6r8nc7zQPHJ3iv4SR");
+            })();
+            console.log("success")
+            var name = document.getElementById("name").value;
+            var phone = document.getElementById("phone").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+            var templateParams = {
+                from_name: name,
+                message: message,
+                email: email,
+                phone: phone,
+                message: message,
+                reply_to: 'haakucore@gmail.com'
+            };
+            emailjs.send("service_83h01za", "template_eytnz3i", templateParams).then({
+                function() {
+                    console.log('sucess')
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

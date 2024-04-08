@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "haaku-legend",
+    "firebase use default": "haaku-legend"
+  },
+  "targets": {},
+  "etags": {}
+}
